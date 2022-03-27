@@ -1,0 +1,36 @@
+/*****************Tag Selectors****************/
+body{
+    background-color: 	#87cefa; 
+  }
+  h1{
+      color: black;
+  }
+  h3{
+      color: orangered;
+  }
+  hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 7px;
+    width: 5%;
+  }
+  img:hover{
+      background-color : gold;   /*This hover is a pseudo class*/
+  }
+
+/*****************Class Selectors****************/
+.Netflix{
+    background-color: red;
+}
+.Prime{
+    background-color: dodgerblue;
+}
+.Hotstar{
+    background-color: darkblue;
+}
+
+/*****************id Selectors****************/
+#heading{
+    color: red;    /*here heading id selector gets first priority than h1 tag selector*/
+}
